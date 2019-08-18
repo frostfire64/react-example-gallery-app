@@ -1,0 +1,23 @@
+.album {
+  display: inline-block;
+  box-shadow: #aaaaaa 2px 2px 3px;
+  border: #ccc 1px solid;
+  width: 16rem;
+  min-height: 18rem;
+  box-sizing: border-box;
+  margin: 1rem;
+  padding: 0.5rem;
+  background-color: white;
+  &__image{
+
+  }
+  &__card{
+    padding: 0.5rem;
+    text-align: left;
+  }
+  &__header {
+    text-align: left;
+    font-weight: bold;
+    font-size: 1.2rem;
+  }
+}

@@ -1,0 +1,19 @@
+.App {
+  text-align: center;
+  font-family: Arial, "Helvetica Neue", sans-serif;
+  background: #a9deff;
+  font-size: 12px;
+  h1 {
+    margin:0;
+    padding: 1rem 0;
+  }
+  hr {
+    border: none;
+    border-bottom: 1px solid #54b2ff;
+  }
+  &__albums{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
